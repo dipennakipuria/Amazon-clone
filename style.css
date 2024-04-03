@@ -1,0 +1,351 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+    
+    font-family: Arial;
+    
+}
+ 
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: left;
+    justify-content: space-between;
+   
+ 
+    
+    
+
+}
+.navlogo{
+    
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    
+
+}
+.alogo{
+    
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    
+    background-size: cover;
+    
+
+}
+.border{
+    border: solid transparent 1px;
+}
+.border:hover{
+    border: solid white 1px;
+}
+
+ .address {
+    color: #cccccc;
+    display: flex;
+
+ }
+
+ .location{
+    display: flex;
+   
+    
+
+ }
+ .deliver{
+    
+ }
+ 
+ #del{
+    font-size: 0.75rem;
+    margin-left: 15px;
+    display: content;
+    
+    
+
+ }
+ #india{
+    font-size: 1rem;
+   
+ }
+
+ /* /Seach bar */
+
+ .search{
+   
+ display: flex;
+ 
+ margin: left;
+ padding-left: 20px;
+ height: 40px;
+  
+ }
+ .search :hover{
+    border: solid 2px yellow;
+ }
+ select{
+    border-top-left-radius: 3px;
+ }
+ .input{
+    width: 800px;
+
+  
+
+ }
+ .searchicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    border-top-right-radius: 3px ;
+
+    
+    border-radius: 3px;
+ background-color: rgba(250, 203, 17, 0.909);
+
+
+
+ }
+ .accountname{
+    margin-left: 30px;
+
+ }
+ .user{
+    color: #cccccc;
+    font-size: 0.75rem;
+ }
+ .account{
+    font-weight: 100;
+ }
+
+ .return{
+    margin-left: 30px;
+
+ }
+ .rt{
+    color: #cccccc;
+    font-size: 0.75rem;
+ }
+ .order{
+    font-weight: 100;
+ }
+
+ .cart{
+    margin-left: 30px;
+
+ }
+ .carticon{
+    font-size: 25px;
+ }
+ .textcart{
+    font-size: 20px;
+ }
+ /* PANNAL */
+
+ .pannal{
+   display: flex;
+   background-color: #222f3d;
+   height: 40px;
+   align-items: center;
+   color: #cccccc;
+   justify-content: space-evenly;
+   
+
+ }
+ .pannal-all {
+   display: flex;
+   align-items: center;
+   
+
+ }
+ 
+ .pannal-content p{
+   display: inline;
+   margin: 15px;
+  
+    
+
+ }
+ .pannal-content{
+   width: 70%;
+ }
+ .pannal-deals{
+   font-weight: 700;
+
+ }
+
+ /* Section hero */
+
+ .section-hero{
+   background-image: url(Hero_2x._CB574844038_.jpg);
+   height: 260px;
+   max-width: 100%;
+   background-size: cover;
+    
+ }
+ .section-hero2{
+   background-image: url( bankoffer.jpg);
+   height: 100px;
+ }
+ .section-hero3{
+   background-image: url(hero3.jpg);
+   height: 130px;
+ }
+ /*  section deals */
+
+ .section-deals{
+
+   display: flex;
+   height: 430px;
+   width: 100%;
+   background-color: rgb(247, 221, 158);
+   justify-content: space-evenly;
+ }
+ .section-deals p{
+   color: aliceblue;
+   display: inline;
+   background-color: red;
+ }
+ .section-deals2 p{
+   color: aliceblue;
+   display: inline;
+   background-color: red;
+ }
+
+ .box{
+   
+   height: 380px;
+   width: 430px;
+   background-color: #fff;
+   padding: 20px 0px 15px;
+   margin: 20px 0px;
+   justify-content: center;
+   align-items: center;
+
+   border: black 2px ;
+   
+ }
+ .imgbox{
+   background-size: cover;
+   margin-left: 30px;
+   height: 330px ;
+   width: 400px;
+   justify-content: center;
+   align-items: center;
+   
+ }
+ h3{
+   color: red;
+   margin-left: 8px;
+   margin-bottom: 10px;
+ }
+ h2{
+   background-color: rgb(247, 221, 158);
+   
+ }
+
+ .section-deals2{
+   display: flex;
+   height: 430px;
+   
+   width: 100%;
+   background-color: rgb(247, 221, 158);
+   justify-content: space-evenly;
+ }
+ /* last img */
+
+ .section-last{
+   display: flex;
+   
+ }
+
+ .last-img{
+   background-size: cover;
+   
+   height: 400px ;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   
+ }
+ /* footer */
+
+ .foot-pannal1{
+   display: flex;
+   height: 50px;
+   justify-content: center;
+   align-items: center;
+   background-color: #37475a;
+   color: white;
+ }
+ .foot-pannal2{
+   display: flex;
+   background-color: #222f3d;
+   height: 300px;
+   color: white;
+   justify-content: space-evenly;
+   align-items: center;
+ }
+ ul a{
+   display: block;
+   color: #cccccc;
+   margin-bottom: 15px;
+ }
+
+ .foot-pannal3{
+   display: flex;
+   border: 0.5px solid white;
+   background-color: #222f3d;
+   height: 100px;
+   align-items: center;
+   justify-content: center;
+ }
+ .logo{
+   display: inline;
+   flex-direction: column;
+   justify-content: center;
+   background-image: url("amazon_logo.png");
+   height: 50px;
+   width: 100px;
+   margin-right:  50px;
+   
+   background-size: cover;
+   
+
+ }
+ .name{
+   display: inline;
+   color: white;
+ }
+ .name a{
+   color: #fff;
+   margin-left: 10px;
+ }
+
+ .foot-pannal4{
+   display: flex;
+   border: 0.5px solid white;
+   background-color: #0f1111;
+   height: 100px;
+   align-items: center;
+   justify-content: center;
+
+
+ }
+ .first-text{
+   color: white;
+ }
+ .sec-text{
+   display: block;
+   color: white;
+ }
+
+
+
+ 
